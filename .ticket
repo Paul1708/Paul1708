@@ -1,0 +1,16 @@
++--------------------------------------------------+
+|  RETURN TICKET                      PAUL / 1708  |
++--------------------------------------------------+
+|  Erfurt  <-------------------------------->  Jena|
+|  University                                  Work|
+|                                                  |
+|  Passenger    Paul Brinkmann                     |
+|  Issued by    Git                                |
+|  Serial       00050683                           |
++--------------------------------------------------+
+
+The ticket number on the front is the first seven characters
+of the Git object ID for this file. To inspect the full ID,
+run this in a clone of my profile repository:
+
+    git hash-object .ticket

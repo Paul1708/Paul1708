@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="216" viewBox="0 0 720 216" role="img" aria-labelledby="name description" shape-rendering="crispEdges">
+  <title id="name">Erfurt to Jena · Return ticket</title>
+  <desc id="description">A pixel train travels along a Git graph between Erfurt and Jena. The tear-off strip reads “git show 17084fd”. Open the ticket to see the reverse.</desc>
+  <style>
+    text { font: bold 16px ui-monospace, Consolas, monospace; letter-spacing: 1px; }
+    .train { transform: translateX(273px); }
+    .sun { display: none; }
+    .ticket-command { font-size: 24px; letter-spacing: 0; }
+    .ticket-action { font: 600 21px system-ui, sans-serif; letter-spacing: 0; }
+    @media (prefers-color-scheme: light) {
+      .sky { fill: #d7ecf2; }
+      .stars, .moon { display: none; }
+      .sun { display: inline; }
+      .hills { fill: #abcbd0; }
+      .city { fill: #728c9c; }
+      .signs { fill: #293d51; }
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .train { animation: commute 16s linear -4.5s infinite; }
+      @keyframes commute {
+        0%, 12%, 100% { transform: translateX(35px); }
+        46%, 60% { transform: translateX(520px); }
+        94% { transform: translateX(35px); }
+      }
+    }
+  </style>
+  <defs>
+    <path id="star" d="M0 0h3v3H0z"/>
+    <path id="spire" d="M0 55V34h3v-8h3v-9h3V9h2V0h2v9h2v8h3v9h3v8h3v21z"/>
+    <g id="coach">
+      <path d="M3 0h67v3h4v17h-3v3H3v-3H0V3h3z" fill="#87e6cc"/>
+      <path d="M4 5h66v11H4z" fill="#213345"/>
+      <path d="M8 6h13v8H8zm20 0h13v8H28zm20 0h13v8H48z" fill="#ffd28c"/>
+      <path d="M1 18h72v3H1z" fill="#54a59e"/>
+      <path d="M8 23h10v3H8zm48 0h10v3H56z" fill="#b9bbda"/>
+    </g>
+  </defs>
+  <path class="sky" fill="#101426" d="M0 0h720v152H0z"/>
+  <g class="stars" fill="#8893bd">
+    <use href="#star" x="30" y="46"/><use href="#star" x="160" y="21"/><use href="#star" x="213" y="44"/><use href="#star" x="278" y="17"/>
+    <use href="#star" x="359" y="29"/><use href="#star" x="422" y="14"/><use href="#star" x="465" y="47"/><use href="#star" x="540" y="21"/><use href="#star" x="687" y="40"/>
+  </g>
+  <path class="moon" fill="#ffdaaa" d="M396 25h8v4h-5v7h6v4h-10v-4h-3v-8h4z"/>
+  <path class="sun" fill="#f3ae5e" d="M392 22h12v4h4v12h-4v4h-12v-4h-4V26h4z"/>
+  <path class="hills" fill="#23273e" d="M0 82h36v-5h35v-8h40v-5h45v4h44v8h45v6h59v-7h38v-6h36v-8h44v-4h45v5h44v8h47v-6h40v-5h48v6h40v9h34v34H0z"/>
+  <g class="city" fill="#323752">
+    <path d="M0 94h15v-9h20v7h15v-8h17v-6h18v7h18v-9h21v5h17v-5h23v10h16v6h19v-8h18v9h16v-8h19v7h25v-8h19v7h25v-4h23v7h34v-6h23v3h23v-5h25v7h19v-5h22v4h22v-7h20v-6h17v9h19v-4h24v7h19v-9h19v-5h17v12h17v-5h19v-6h23v6h15v10h20v-5h29v19H0z"/>
+    <use href="#spire" x="58" y="43"/><use href="#spire" x="84" y="38"/>
+    <path d="M111 93V72h3v-9h3v-8h2v-8h2v8h2v8h3v9h3v21zM602 95V53h4v-5h16v5h4v42z"/>
+  </g>
+  <path fill="#a5a0ae" d="M608 56h12v2h-12zm0 6h12v2h-12zm0 6h12v2h-12zM68 81h3v5h-3zm26-5h3v5h-3z"/>
+  <g class="signs" fill="#cfdae9">
+    <text x="21" y="26">ERFURT</text><text x="698" y="26" text-anchor="end">JENA</text>
+  </g>
+  <path fill="#15192c" d="M0 108h720v44H0z"/>
+  <path d="M0 114h720" fill="none" stroke="#7ee1bf" stroke-width="3"/>
+  <path d="M120 114l22 21h97l21-21m167 0 15 14h71l15-14" fill="none" stroke="#aa94ed" stroke-width="3"/>
+  <path d="M39 110h8v8h-8zm72 0h8v8h-8zm148 0h8v8h-8zm82 0h8v8h-8zm183 0h8v8h-8zm146 0h8v8h-8z" fill="#92f2cf"/>
+  <path d="M180 131h8v8h-8zm288-7h8v8h-8z" fill="#b2a1ed"/>
+  <g class="train"><g transform="translate(0 86)">
+    <path d="M68 18h16v3H68z" fill="#b9bbda"/>
+    <use href="#coach"/><use href="#coach" x="79"/>
+    <path fill="#213345" d="M9 8h2v2h4V8h2v6H9z"/>
+    <path fill="#eee7ae" d="M0 14h3v3H0zm150 0h3v3h-3z"/>
+  </g></g>
+  <path fill="#dbece6" d="M0 152h720v64H0z"/>
+  <path d="M1 154h718" stroke="#617c75" stroke-width="2" stroke-dasharray="6 5"/>
+  <g fill="#203e3d">
+    <path d="M20 171h3v27h-3zm6 0h2v27h-2zm5 0h5v27h-5zm8 0h2v27h-2zm5 0h4v27h-4zm7 0h2v27h-2z"/>
+    <text class="ticket-command" x="68" y="193">$ git show 17084fd</text>
+  </g>
+  <path stroke="#819b92" stroke-dasharray="4 4" d="M508 154v62"/>
+  <text class="ticket-action" x="614" y="192" text-anchor="middle" fill="#203e3d">Flip ticket ↗</text>
+</svg>
