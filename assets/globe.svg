@@ -1,8 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="78" height="32" viewBox="0 0 78 32" role="img">
   <title>Portfolio</title>
-  <rect x=".5" y=".5" width="77" height="31" rx="6" fill="#202c39" stroke="#506670"/>
-  <g transform="translate(7 8)" fill="none" stroke="#9ce6cf" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+  <style>
+    .bg { fill: #202c39; stroke: #506670; }
+    .icon { stroke: #9ce6cf; }
+    .dot { fill: #9ce6cf; }
+    .label { fill: #f3f6f7; }
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #f6f8fa; stroke: #d0d7de; }
+      .icon { stroke: #1a7f64; }
+      .dot { fill: #1a7f64; }
+      .label { fill: #1f2328; }
+    }
+  </style>
+  <rect class="bg" x=".5" y=".5" width="77" height="31" rx="6" fill="#202c39" stroke="#506670"/>
+  <g class="icon" transform="translate(7 8)" fill="none" stroke="#9ce6cf" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="8" cy="8" r="6.25"/><ellipse cx="8" cy="8" rx="2.75" ry="6.25"/><path d="M2 6h12M2 10h12"/>
   </g>
-  <text x="28" y="20.5" fill="#f3f6f7" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Portfolio</text>
+  <text class="label" x="28" y="20.5" fill="#f3f6f7" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Portfolio</text>
 </svg>
