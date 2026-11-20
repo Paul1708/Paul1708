@@ -1,6 +1,6 @@
 # Hi, I’m Paul.
 
-I’m a master’s student in applied computer science in Erfurt, Germany. I also work part-time as a software developer at LASOS in Jena. In my spare time, I build mobile apps and experiment with game physics.
+Master’s student in Applied Computer Science in Erfurt and part-time Software Developer at LASOS in Jena. Writing production code by day, and debugging everything else on the Erfurt–Jena commute by night.
 
 [![Repositories](assets/repository.svg)](https://github.com/Paul1708?tab=repositories) [![Portfolio](assets/globe.svg)](https://paulbrinkmann.de/) [![LinkedIn](assets/linkedin.svg)](https://www.linkedin.com/in/paul-brinkmann/)
 
