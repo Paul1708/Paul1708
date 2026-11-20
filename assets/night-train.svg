@@ -1,13 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="216" viewBox="0 0 720 216" role="img" aria-labelledby="name description" shape-rendering="crispEdges">
   <title id="name">Erfurt to Jena · Return ticket</title>
-  <desc id="description">A pixel train travels along a Git graph between Erfurt and Jena. The tear-off strip reads “git show 17084fd”. Open the ticket to see the reverse.</desc>
+  <desc id="description">A pixel train travels along a Git graph between Erfurt and Jena. The skyline between the cities is built from a year of GitHub contributions: every week with GitHub contributions adds a tower, every active day a lit window. The tear-off strip reads “git show 17084fd”. Open the ticket to see the reverse.</desc>
   <style>
     text { font: bold 16px ui-monospace, Consolas, monospace; letter-spacing: 1px; }
     .train { transform: translateX(273px); }
     .sun { display: none; }
     .ticket-command { font-size: 24px; letter-spacing: 0; }
     .ticket-action { font: 600 21px system-ui, sans-serif; letter-spacing: 0; }
+    .lit { fill: #ffd28c; }
+    .l1 { opacity: .35; } .l2 { opacity: .55; } .l3 { opacity: .8; }
+    .tower { fill: #3d4468; }
+    .crane { fill: #3d4468; }
     @media (prefers-color-scheme: light) {
+      .lit { fill: #eef6f8; }
+      .tower, .crane { fill: #5b7385; }
       .sky { fill: #d7ecf2; }
       .stars, .moon { display: none; }
       .sun { display: inline; }
@@ -47,6 +53,14 @@
     <path d="M0 94h15v-9h20v7h15v-8h17v-6h18v7h18v-9h21v5h17v-5h23v10h16v6h19v-8h18v9h16v-8h19v7h25v-8h19v7h25v-4h23v7h34v-6h23v3h23v-5h25v7h19v-5h22v4h22v-7h20v-6h17v9h19v-4h24v7h19v-9h19v-5h17v12h17v-5h19v-6h23v6h15v10h20v-5h29v19H0z"/>
     <use href="#spire" x="58" y="43"/><use href="#spire" x="84" y="38"/>
     <path d="M111 93V72h3v-9h3v-8h2v-8h2v8h2v8h3v9h3v21zM602 95V53h4v-5h16v5h4v42z"/>
+    <!-- skyline:start -->
+    <path class="crane" d="M566 108V60h2V108zM552 58h24v2h-24zM560 60h1v7h-1zM559 67h3v2h-3z"/>
+    <path class="tower" d="M261 89h6v21h-6zM333 84h6v26h-6zM341 79h6v31h-6zM349 84h6v26h-6zM357 84h6v26h-6zM365 89h6v21h-6zM373 74h6v36h-6zM381 84h6v26h-6zM389 84h6v26h-6zM397 84h6v26h-6zM405 74h6v36h-6zM413 74h6v36h-6zM445 89h6v21h-6zM541 84h6v26h-6zM557 84h6v26h-6z"/>
+    <path class="lit l1" d="M335 99h2v2h-2zM343 94h2v2h-2zM343 89h2v2h-2zM351 99h2v2h-2zM351 94h2v2h-2zM359 99h2v2h-2zM359 94h2v2h-2zM367 99h2v2h-2zM375 94h2v2h-2zM375 89h2v2h-2zM375 84h2v2h-2zM383 99h2v2h-2zM383 94h2v2h-2zM391 99h2v2h-2zM391 94h2v2h-2zM399 99h2v2h-2zM399 94h2v2h-2zM407 94h2v2h-2zM407 89h2v2h-2zM407 84h2v2h-2zM415 99h2v2h-2zM447 99h2v2h-2zM543 99h2v2h-2zM543 94h2v2h-2zM559 99h2v2h-2z"/>
+    <path class="lit l2" d="M263 99h2v2h-2zM335 94h2v2h-2zM375 99h2v2h-2zM407 99h2v2h-2zM415 94h2v2h-2z"/>
+    <path class="lit l3" d="M343 99h2v2h-2zM415 89h2v2h-2zM415 84h2v2h-2z"/>
+    <path class="lit l4" d="M559 94h2v2h-2z"/>
+    <!-- skyline:end -->
   </g>
   <path fill="#a5a0ae" d="M608 56h12v2h-12zm0 6h12v2h-12zm0 6h12v2h-12zM68 81h3v5h-3zm26-5h3v5h-3z"/>
   <g class="signs" fill="#cfdae9">
